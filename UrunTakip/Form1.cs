@@ -69,6 +69,12 @@ namespace UrunTakip
             da.Fill(dt);
             dataGridView1.DataSource = dt;
         }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txtId.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+            txtKategoriAd.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+        }
     }
 }
 

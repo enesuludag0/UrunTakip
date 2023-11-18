@@ -22,11 +22,13 @@ namespace UrunTakip
 
         private void bttnListele_Click(object sender, EventArgs e)
         {
-            SqlCommand komut = new SqlCommand("SELECT * FROM TblUrunler", baglanti);
+            SqlCommand komut = new SqlCommand("SELECT UrunId,UrunAd,Stok,AlisFiyat,SatisFiyat,KategoriAdi,Kategori " +
+                "FROM TblUrunler INNER JOIN TblKategori ON TblUrunler.Kategori=TblKategori.Id", baglanti);
             SqlDataAdapter da = new SqlDataAdapter(komut);
             DataTable dt = new DataTable();
             da.Fill(dt);
             dataGridView1.DataSource = dt;
+            dataGridView1.Columns["Kategori"].Visible = false;
         }
 
         private void bttnKaydet_Click(object sender, EventArgs e)
