@@ -43,7 +43,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(107, 93);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 20);
+            this.label1.Size = new System.Drawing.Size(139, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Kullanıcı Adı:";
             // 
@@ -51,7 +51,7 @@
             // 
             this.txtKullaniciAdi.Location = new System.Drawing.Point(224, 90);
             this.txtKullaniciAdi.Name = "txtKullaniciAdi";
-            this.txtKullaniciAdi.Size = new System.Drawing.Size(162, 26);
+            this.txtKullaniciAdi.Size = new System.Drawing.Size(162, 30);
             this.txtKullaniciAdi.TabIndex = 1;
             // 
             // bttnGirisYap
@@ -68,7 +68,7 @@
             // 
             this.txtSifre.Location = new System.Drawing.Point(224, 132);
             this.txtSifre.Name = "txtSifre";
-            this.txtSifre.Size = new System.Drawing.Size(162, 26);
+            this.txtSifre.Size = new System.Drawing.Size(162, 30);
             this.txtSifre.TabIndex = 2;
             this.txtSifre.UseSystemPasswordChar = true;
             // 
@@ -79,7 +79,7 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(166, 135);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 20);
+            this.label2.Size = new System.Drawing.Size(64, 25);
             this.label2.TabIndex = 3;
             this.label2.Text = "Şifre:";
             // 
@@ -90,14 +90,14 @@
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(42, 21);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(415, 31);
+            this.label3.Size = new System.Drawing.Size(490, 38);
             this.label3.TabIndex = 5;
             this.label3.Text = "Ürün Takip Projesi Admin Paneli Giriş Ekranı";
             // 
             // FrmAdmin
             // 
             this.AcceptButton = this.bttnGirisYap;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(84)))), ((int)(((byte)(208)))));
             this.ClientSize = new System.Drawing.Size(491, 268);
@@ -112,7 +112,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmAdmin";
+            this.Text = " ";
             this.ResumeLayout(false);
             this.PerformLayout();
 

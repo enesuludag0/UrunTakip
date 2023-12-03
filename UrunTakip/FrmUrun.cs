@@ -74,7 +74,7 @@ namespace UrunTakip
             numUpDwStok.Value = int.Parse(dataGridView1.CurrentRow.Cells[2].Value.ToString());
             txtAlisFiyati.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();
             txtSatisFiyati.Text = dataGridView1.CurrentRow.Cells[4].Value.ToString();
-            comboBoxKategori.SelectedValue = dataGridView1.CurrentRow.Cells[5].Value.ToString();
+            comboBoxKategori.Text = dataGridView1.CurrentRow.Cells[5].Value.ToString();
         }
 
         private void bttnGuncelle_Click(object sender, EventArgs e)
